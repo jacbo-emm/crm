@@ -1,22 +1,21 @@
 # crm
-├── crm-base-- 通用代码
-├── crm-util -- 工具类
-└── crm-vo-- 实体类
+crm-base-- 通用代码
+crm-util -- 工具类
+crm-vo-- 实体类
 
-├── crm-config-- 配置类
-├── crm-enums-- 枚举类（分配转台类，和开发状态类）
-├── crm-dao-- 数据访问层，具体到对于某个表的增删改查
-├── crm-service-- 服务层，主要负责业务模块的应用逻辑和应用设计
-└── crm-controller-- 控制层，负责请求转发，接受页面过来的参数，传给Service处理，接到返回值，再传给页面
+crm-config-- 配置类
+crm-enums-- 枚举类（分配转台类，和开发状态类）
+crm-dao-- 数据访问层，具体到对于某个表的增删改查
+crm-service-- 服务层，主要负责业务模块的应用逻辑和应用设计
+crm-controller-- 控制层，负责请求转发，接受页面过来的参数，传给Service处理，接到返回值，再传给页面
 
-├── crm-model-- 对象模型类
-└── crm-query-- 多条件查询封装类
-
-├── crm-interceptor-- 拦截器类（非法访问拦截）
-├── crm-aspect-- 切面类，PermissionProxy权限代理
-├── crm-annoation-- 注解类
-├── crm-exceptions-- 自定义异常处理类
-└── GlobalExceptionResolver 全局异常统一处理类
+crm-model-- 对象模型类
+crm-query-- 多条件查询
+crm-interceptor-- 拦截器类（非法访问拦截）
+crm-aspect-- 切面类，PermissionProxy权限代理
+crm-annoation-- 注解类
+crm-exceptions-- 自定义异常处理类
+GlobalExceptionResolver 全局异常统一处理类
 
 | 技术       | 说明                | 官网                                           |
 | ---------- | ------------------- | ---------------------------------------------- |
